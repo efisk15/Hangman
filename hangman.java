@@ -120,7 +120,7 @@ class hangman {
         System.out.println(string);
     }
 
-// Check to see if the letter the user guesses is is in the given word.
+// Check to see if the letter the user guesses is in the given word.
     public boolean guess(char letter) {
         if(guesses.contains(letter)) {
             return false;
